@@ -6,3 +6,17 @@ body {
     rgba(255, 115, 0, 1) 100%
   );
 }
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .navbar-link {
+  color: white;
+  padding-top: 0.8rem;
+}
